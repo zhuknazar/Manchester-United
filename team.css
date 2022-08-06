@@ -1,0 +1,51 @@
+.container {
+  background-color: #910f0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: azure;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #080202;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__item {
+  color: azure;
+  margin: 10px;
+  font-size: 25px;
+}
+.header__item__active {
+  color: darkorange !important;
+  font-size: 25px;
+  border-bottom: 2px solid gold;
+}
+
+.headline {
+  margin: 0;
+  text-align: center;
+  margin-top: 60px;
+}
+.player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  border: 1px solid gold;
+  padding: 10px;
+  border-radius: 4px;
+  width: 90vw;
+}
+.player__name {
+  margin-left: 10px;
+  color: azure;
+}

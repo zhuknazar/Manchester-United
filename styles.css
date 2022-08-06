@@ -1,0 +1,52 @@
+.container {
+  background-color: #910f0f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: azure;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: #080202;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__item {
+  color: azure;
+  margin: 10px;
+  font-size: 25px;
+}
+.header__item__active {
+  color: darkorange !important;
+  font-size: 25px;
+  border-bottom: 2px solid gold;
+}
+
+.headline {
+  margin: 0;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.link {
+  color: azure;
+  margin-top: 15px;
+}
+
+.paragraph {
+  width: 70%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  color: azure;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
